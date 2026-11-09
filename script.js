@@ -1,12 +1,12 @@
 // أدخل بيانات الأطباء هنا. لكل طبيب: name, specialty, clinic, address, username, password.
     // اترك الحقول الفارغة إلى أن تصبح بيانات الطبيب جاهزة.
     const DOCTORS = [
-      { id:'d1', name:'د.طلبة نجيبة', specialty:'طب اطفال', address:'الطريق الاستراتيجي تبسة', username:'najiba najiba', password:'1' },
-      { id:'d3', name:'د.بوهنشير مبروكة', specialty:'طب القلب', address:'وسط المدينة جانب سينما المغرب', username:'mabrouka mabrouka', password:'2' },
-      { id:'d2', name:'د.بوقصة طارق', specialty:'طب العظام', address:'حي جبل الجرف', username:'tarek tarek', password:'3' },
-      { id:'d4', name:'د.رمضاني رمضان', specialty:'أمراض الجلد',  address:'الحي العمراني الطابق الارضي', username:'ramdan ramdan', password:'4' },
-      { id:'d5', name:'د.تريكي ايمان', specialty:'طب العيون',  address:'حي هواري بومدين', username:'iman iman', password:'5' },
-      { id:'d6', name:'د.علوش ابراهيم', specialty:'طب الاطفال',  address:'', username:'brahim brahim', password:'6' },
+      { id:'d1', name:'د.طلبة نجيبة', specialty:'طب اطفال', address:'الطريق الاستراتيجي تبسة', username:'najiba najiba', password:'najiba' },
+      { id:'d3', name:'د.بوهنشير مبروكة', specialty:'طب القلب', address:'وسط المدينة جانب سينما المغرب', username:'mabrouka mabrouka', password:'mabrouka' },
+      { id:'d2', name:'د.بوقصة طارق', specialty:'طب العظام', address:'حي جبل الجرف', username:'tarek tarek', password:'tarek' },
+      { id:'d4', name:'د.رمضاني رمضان', specialty:'أمراض الجلد',  address:'الحي العمراني الطابق الارضي', username:'ramdan ramdan', password:'ramdan' },
+      { id:'d5', name:'د.تريكي ايمان', specialty:'طب العيون',  address:'حي هواري بومدين', username:'iman iman', password:'iman' },
+      { id:'d6', name:'د.علوش ابراهيم', specialty:'طب الاطفال',  address:'', username:'brahim brahim', password:'brahim' },
     ];
     const KEY='mawidi_appointments_v1'; let currentDoctor=null;
     const specialties=[...new Set(DOCTORS.map(d=>d.specialty).filter(Boolean))];
